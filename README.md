@@ -22,6 +22,15 @@ Every repository in this profile reflects real-world engineering practices rathe
 
 ---
 
+# 📦 Completed Projects
+
+| Status | Project | Release | Engineering Focus | Repository |
+|---|---|---|---|---|
+| ✅ Complete | MAOps Linux DevOps Toolkit | `v1.0.0` | Production-inspired Linux automation toolkit — unified Bash CLI for DevOps, Platform Engineering and Cloud Operations | [Repository](https://github.com/raiyan10/maops-linux-devops-toolkit) |
+| ✅ Complete | MAOps Python DevOps Automation Toolkit | `v0.7.0` | Small, dependency-free Python CLI for structured, read-only DevOps diagnostics, operational reporting, and declarative automation | [Repository](https://github.com/raiyan10/maops-python-devops) |
+
+---
+
 # 🌍 Engineering Vision
 
 I am building MAOps Technologies as a long-term engineering portfolio focused on modern cloud platforms and AI-enabled operations.
