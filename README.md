@@ -6,7 +6,7 @@ Welcome to my GitHub!
 
 I am an Enterprise ICT professional with over a decade of experience in Information Technology, currently serving as a Deputy Manager (ICT). My passion lies in designing, automating, securing, and operating modern cloud-native platforms while exploring the future of AI-assisted software engineering.
 
-This GitHub documents my engineering journey through **MAOps Technologies**, where I build production-inspired projects covering Cloud Engineering, Platform Engineering, DevOps, DevSecOps, GitOps, MLOps, LLMOps, AIOps, AI Infrastructure, Observability, and AI-assisted engineering.
+This GitHub documents my engineering journey through [**MAOps Technologies**](https://github.com/raiyan10/MAOps-Technologies), where I build production-inspired projects covering Cloud Engineering, Platform Engineering, DevOps, DevSecOps, GitOps, MLOps, LLMOps, AIOps, AI Infrastructure, Observability, and AI-assisted engineering.
 
 ---
 
@@ -28,6 +28,7 @@ Every repository in this profile reflects real-world engineering practices rathe
 |---|---|---|---|---|
 | ✅ Complete | MAOps Linux DevOps Toolkit | `v1.0.0` | Production-inspired Linux automation toolkit — unified Bash CLI for DevOps, Platform Engineering and Cloud Operations | [Repository](https://github.com/raiyan10/maops-linux-devops-toolkit) |
 | ✅ Complete | MAOps Python DevOps Automation Toolkit | `v0.7.0` | Small, dependency-free Python CLI for structured, read-only DevOps diagnostics, operational reporting, and declarative automation | [Repository](https://github.com/raiyan10/maops-python-devops) |
+| ✅ Complete | MAOps Docker Platform | `v1.0.0` | Secure, distroless Docker platform — multi-stage builds, gateway→app→state architecture, hardened Compose orchestration, CI/CD with SBOM and vulnerability policy, sha256sum-verified releases | [Repository](https://github.com/raiyan10/maops-docker-platform) |
 
 ---
 
@@ -69,7 +70,7 @@ The vision is to demonstrate how **Cloud Engineering, Platform Engineering, DevO
 
 # 🎯 Current Engineering Journey
 
-I am currently building an end-to-end engineering portfolio consisting of production-inspired projects including:
+I am currently building an end-to-end engineering portfolio. With the Linux DevOps Toolkit, Python DevOps Automation Toolkit, and Docker Platform now complete, my current focus is the Kubernetes Platform, followed by production-inspired projects including:
 
 - Linux DevOps Toolkit
 - Python for DevOps
@@ -152,7 +153,7 @@ Rather than using AI solely as a coding assistant, I aim to use it as an enginee
 
 # 🛣 Engineering Roadmap
 
-Current roadmap for MAOps Technologies:
+Current roadmap for MAOps Technologies (Linux, Python, and Docker complete; Kubernetes next):
 
 - Linux Engineering
 - Python for DevOps
