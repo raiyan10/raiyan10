@@ -6,7 +6,7 @@ Welcome to my GitHub!
 
 I am an Enterprise ICT professional with over a decade of experience in Information Technology, currently serving as a Deputy Manager (ICT). My passion lies in designing, automating, securing, and operating modern cloud-native platforms while exploring the future of AI-assisted software engineering.
 
-This GitHub documents my engineering journey through [**MAOps Technologies**](https://github.com/raiyan10/MAOps-Technologies), where I build production-inspired projects covering Cloud Engineering, Platform Engineering, DevOps, DevSecOps, GitOps, MLOps, LLMOps, AIOps, AI Infrastructure, Observability, and AI-assisted engineering.
+This GitHub documents my engineering journey through [**MAOps Technologies**](https://github.com/raiyan10/MAOps-Technologies), where I am building a sequence of production-inspired projects across Cloud Engineering, Platform Engineering, DevOps, DevSecOps, GitOps, MLOps, LLMOps, AIOps, AI Infrastructure, Observability, and AI-assisted engineering.
 
 ---
 
@@ -22,13 +22,22 @@ Every repository in this profile reflects real-world engineering practices rathe
 
 ---
 
-# 📦 Completed Projects
+# 📦 Released Portfolio Projects
 
 | Status | Project | Release | Engineering Focus | Repository |
 |---|---|---|---|---|
-| ✅ Complete | MAOps Linux DevOps Toolkit | `v1.0.0` | Production-inspired Linux automation toolkit — unified Bash CLI for DevOps, Platform Engineering and Cloud Operations | [Repository](https://github.com/raiyan10/maops-linux-devops-toolkit) |
-| ✅ Complete | MAOps Python DevOps Automation Toolkit | `v0.7.0` | Small, dependency-free Python CLI for structured, read-only DevOps diagnostics, operational reporting, and declarative automation | [Repository](https://github.com/raiyan10/maops-python-devops) |
-| ✅ Complete | MAOps Docker Platform | `v1.0.0` | Secure, distroless Docker platform — multi-stage builds, gateway→app→state architecture, hardened Compose orchestration, CI/CD with SBOM and vulnerability policy, sha256sum-verified releases | [Repository](https://github.com/raiyan10/maops-docker-platform) |
+| ✅ Released | MAOps Linux DevOps Toolkit | `v1.0.0` | Production-inspired Linux automation toolkit — unified Bash CLI for DevOps, Platform Engineering and Cloud Operations | [Repository](https://github.com/raiyan10/maops-linux-devops-toolkit) |
+| ✅ Released | MAOps Python DevOps Automation Toolkit | `v0.7.0` | Small, dependency-free Python CLI for structured, read-only DevOps diagnostics, operational reporting, and declarative automation | [Repository](https://github.com/raiyan10/maops-python-devops) |
+| ✅ Released | MAOps Docker Platform | `v1.0.0` | Secure, distroless Docker platform — multi-stage builds, gateway→app→state architecture, hardened Compose orchestration, CI/CD with SBOM and vulnerability policy, sha256sum-verified releases | [Repository](https://github.com/raiyan10/maops-docker-platform) |
+| ✅ Released | MAOps Kubernetes Platform | `v1.0.0` | Local Kind platform: persistence, RBAC/NetworkPolicy, Helm, Gateway API, Istio ambient mesh, deployment strategies and isolated HPA/VPA/KEDA demonstrations | [Repository](https://github.com/raiyan10/maops-kubernetes-platform) |
+
+[Kubernetes v1.0.0](https://github.com/raiyan10/maops-kubernetes-platform/releases/tag/v1.0.0)
+was released on 2026-10-05. Its post-release verification record and
+[portfolio case study](https://github.com/raiyan10/maops-kubernetes-platform/blob/main/docs/portfolio-case-study.md)
+were published afterwards on the project's `main`; the `v1.0.0` tag still
+points to the release commit. It is a single-host local Kind reference
+platform, not a production deployment: the application is not autoscaled,
+and state HA and cluster-loss recovery are outside the demonstrated scope.
 
 ---
 
@@ -36,7 +45,7 @@ Every repository in this profile reflects real-world engineering practices rathe
 
 I am building MAOps Technologies as a long-term engineering portfolio focused on modern cloud platforms and AI-enabled operations.
 
-The vision is to demonstrate how **Cloud Engineering, Platform Engineering, DevOps, DevSecOps, GitOps, MLOps, LLMOps, AIOps, AI Infrastructure, and AI-assisted engineering** work together to create secure, scalable, resilient, and production-ready systems.
+The vision is to demonstrate how **Cloud Engineering, Platform Engineering, DevOps, DevSecOps, GitOps, MLOps, LLMOps, AIOps, AI Infrastructure, and AI-assisted engineering** work together to create systems whose delivery, security and operational behavior can be demonstrated within a stated scope.
 
 ---
 
@@ -64,31 +73,23 @@ The vision is to demonstrate how **Cloud Engineering, Platform Engineering, DevO
 - RAG Systems
 - Vector Databases
 - AI Infrastructure
+- AI Inference Engineering
+- Agentic Workflows and AgentOps
 - AI-assisted Engineering
 
 ---
 
 # 🎯 Current Engineering Journey
 
-I am currently building an end-to-end engineering portfolio. With the Linux DevOps Toolkit, Python DevOps Automation Toolkit, and Docker Platform now complete, my current focus is the Kubernetes Platform, followed by production-inspired projects including:
+The first four projects now have releases. My current focus is
+**P5 — GitHub Actions CI/CD Platform**, starting with its architecture
+for reusable build/test/delivery workflows, artifact identity and useful
+failure evidence. These P5 capabilities are planned work, not yet
+delivered.
 
-- Linux DevOps Toolkit
-- Python for DevOps
-- Docker Platform
-- Kubernetes Platform
-- GitHub Actions CI/CD
-- Terraform on AWS
-- Terraform on Azure
-- Ansible Automation
-- DevSecOps Platform
-- Argo CD GitOps
-- Observability Platform
-- AIOps Platform
-- MLOps Platform
-- LLMOps Platform
-- RAG Platform
-- AI Infrastructure
-- Enterprise Platform
+The portfolio follows a consolidated
+[14-project sequence](#-engineering-roadmap), culminating in an
+**Internal Developer Portal**.
 
 ---
 
@@ -105,7 +106,7 @@ I believe modern cloud platforms should be:
 - AI-Assisted
 - Continuously Improved
 
-Every project in this portfolio follows Infrastructure as Code (IaC), CI/CD, GitOps, DevSecOps, automated security scanning, comprehensive documentation, and AI-assisted engineering practices where they provide meaningful value.
+Projects apply automation, tests, security controls, documentation and AI-assisted engineering where they serve the project scope. Dedicated IaC, GitOps and AI operations projects are identified as planned until their own evidence is complete.
 
 ---
 
@@ -153,28 +154,25 @@ Rather than using AI solely as a coding assistant, I aim to use it as an enginee
 
 # 🛣 Engineering Roadmap
 
-Current roadmap for MAOps Technologies (Linux, Python, and Docker complete; Kubernetes next):
+Consolidated 14-project sequence (P1–P4 released; P5 current; P6–P14 planned):
 
-- Linux Engineering
-- Python for DevOps
-- Docker
-- Kubernetes
-- GitHub Actions
-- Terraform
-- AWS
-- Azure
-- Ansible
-- DevSecOps
-- GitOps
-- Observability
-- Kafka
-- AIOps
-- MLOps
-- LLMOps
-- RAG
-- AI Infrastructure
-- Platform Engineering
-- Enterprise Platform
+1. **Linux** — released `v1.0.0`
+2. **Python** — released `v0.7.0`
+3. **Docker** — released `v1.0.0`
+4. **Kubernetes** — released `v1.0.0` (local Kind reference platform)
+5. **GitHub Actions CI/CD** — current, architecture first
+6. Terraform AWS
+7. Ansible
+8. DevSecOps
+9. Argo CD GitOps
+10. Observability/AIOps — SRE perspective
+11. RAG/LLMOps
+12. MLOps/AI Infrastructure — equal depth for MLOps, AI infrastructure and inference
+13. Agentic Workflows/AgentOps
+14. Internal Developer Portal — integrates selected outputs from earlier projects
+
+The [MAOps portfolio roadmap](https://github.com/raiyan10/MAOps-Technologies/blob/main/docs/portfolio-roadmap.md)
+holds per-project detail.
 
 ---
 
